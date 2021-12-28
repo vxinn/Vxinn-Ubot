@@ -52,7 +52,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.skb(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**EMANG KITA KENAL? KAGA GOBLOK SOKAB BANGET LU JEMET**"
+    await typew.edit("**EMANG KITA KENAL? KAGA GOBLOK SOKAB BANGET LU JAMET**"
                      )
 
 
