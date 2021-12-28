@@ -1,5 +1,5 @@
 # https://github.com/andy-gh/prettyjson/blob/master/prettyjson.py
-
+#
 
 def prettyjson(obj, indent=2, maxlinelength=80):
     """Renders JSON content with indentation and line splits/concatenations to fit maxlinelength.
