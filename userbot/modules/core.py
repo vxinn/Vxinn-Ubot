@@ -75,5 +75,5 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `.install` <reply ke file plugins>\
         \n  •  **Function : **Untuk Menginstall plugins userbot secara instan.\
     "
-    }
+    })
 )
