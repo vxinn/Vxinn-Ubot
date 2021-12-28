@@ -50,7 +50,7 @@ async def _(event):
         await event.edit("`Mohon Maaf, Balas Ke Sticker Terlebih Dahulu.`")
         return
     chat = "@stickers_to_image_bot"
-    await event.edit("`Sedang Mengubah Sticker Menjadi Gambar...`")
+    await event.edit("`Sedang Mengubah Sticker Menjadi Gambar....`")
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -87,7 +87,7 @@ async def _(event):
 @register(outgoing=True, pattern="^.stoi$")
 async def sticker_to_png(sticker):
     if not sticker.is_reply:
-        await sticker.edit("`NULL information to feftch...`")
+        await sticker.edit("`NULL information to feftch....`")
         return False
 
     img = await sticker.get_reply_message()
