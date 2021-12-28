@@ -1,4 +1,4 @@
-#created by @eve_enryu
+# created by @eve_enryu
 
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
