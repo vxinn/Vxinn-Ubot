@@ -10,7 +10,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^.d(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BACOT NGENTOTTT!!BAPA LU SURUH RIBUT SAMA GUA**")
+    await typew.edit("**BACOT TOLOL!!BAPA LU SURUH RIBUT SAMA GUA**")
 
 
 @register(outgoing=True, pattern='^.e(?: |$)(.*)')
@@ -22,25 +22,25 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.f(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU SEMUA KAYA KONTOL HAHAHAHA!!**")
+    await typew.edit("**MUKA LU SEMUA KAYA JAMET HAHAHAHA!!**")
 
 
 @register(outgoing=True, pattern='^.i(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!**")
+    await typew.edit("**MUKA KAYAK JAMET AJA BANGGA LU HAHAHAHA!!**")
 
 
 @register(outgoing=True, pattern='^.r(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**KONTOL KONTOL APA YANG BESAR?KONTOL LU LAH HAHAHAHA!!**")
+    await typew.edit("**JAMET JAMET APA YANG NORAK?JAMET TELE LAH HAHAHAHA!!**")
 
 
 @register(outgoing=True, pattern='^.t(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BABI!!KONTOL!!NGENTOT!!!**")
+    await typew.edit("**JAMET!!TELE!!NORAK!!!**")
 
 
 @register(outgoing=True, pattern='^.u(?: |$)(.*)')
@@ -112,7 +112,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.a(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**BISMILLAH SLEEP CALL!!😁**")
+    await typew.edit("**BISMILLAH GIVEAWAY!!🎰**")
 
 
 @register(outgoing=True, pattern='^.g(?: |$)(.*)')
@@ -146,11 +146,11 @@ CMD_HELP.update({
 \n\n.e\
 \nUsage: Buat Orang Yang Sok Keras.\
 \n\n.f\
-\nUsage: Ngatain Orang Wkwkkw.\
+\nUsage: Ngatain Jamet Wkwkkw.\
 \n\n.i\
-\nUsage: Kontol Orang Ngatain.\
+\nUsage: Jamet Orang Ngatain.\
 \n\n.r\
-\nUsage: Pantun Anjing.\
+\nUsage: Pantun Jamet.\
 \n\n.t\
 \nUsage: Nyebutin Binatang.\
 \n\n.u\
@@ -174,7 +174,7 @@ CMD_HELP.update({
 \n\n.v\
 \nUsage: Merendah.\
 \n\n.a\
-\nUsage: Nyari Sleep Call.\
+\nUsage: Nyari Give Away.\
 \n\n.j\
 \nUsage: Hujat yang gapunya muka.\
 \n\n.g\
