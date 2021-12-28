@@ -10,7 +10,7 @@ reset_prog() {
         echo "Cleaning: $prog_f"
         rm $prog_f
     fi
-    echo "Al progress has been reset.. now u can re-run the script from start"
+    echo "Al progress has been reset... now u can re-run the script from start"
     exit
 }
 
@@ -18,7 +18,7 @@ save_prog() {
 echo "$1=y" >> $prog_f
 }
 
-#reset progress.. if user prompted
+#reset progress... if user prompted
 [ "$1" = "--reset" ] && reset_prog
 
 #load progress... if any
