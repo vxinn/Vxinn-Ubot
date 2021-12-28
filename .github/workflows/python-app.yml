@@ -18,13 +18,13 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
-      run: |
+      run: 
         sudo apt-get install libpq-dev
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         pip install flake8 flake8-print flake8-quotes
     - name: Check for showstoppers
-      run: |
+      run: 
         flake8 . --count --select=E999 --show-source --statistics
   shellcheck:
 
