@@ -8,7 +8,7 @@ from userbot import ALIVE_NAME, CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r"^\.logo(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\?logo(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -41,5 +41,5 @@ async def _(event):
         await event.delete()
 
 
-CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.logo <text>`"
+CMD_HELP.update({"logo": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `?logo <text>`"
                  "\n↳ : Hasilkan logo dari Teks atau Balas Ke gambar yang diberikan, untuk menulis teks Anda di atasnya. Atau Balas Ke File Font, Untuk menulis dengan font itu."})
