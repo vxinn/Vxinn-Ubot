@@ -55,4 +55,4 @@ CMD_HELP.update({
     ">`.spotnow`"
     "\nUsage: Show what you're listening on spotify."
     "\n@SpotifyNowBot"
-})
+)
