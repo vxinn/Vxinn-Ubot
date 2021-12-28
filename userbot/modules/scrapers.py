@@ -1609,4 +1609,4 @@ CMD_HELP.update(
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙 : `.ytsearch <search>`\
     \n↳ : Does a Youtube Search."
     }
-)
+)}
