@@ -133,4 +133,4 @@ CMD_HELP.update({
     "kamuii":
     "`.kamuii` or `.kamuii` [level(1-8)]"
     "\nUsage: untuk mengubah foto/sticker."
-})
+}
