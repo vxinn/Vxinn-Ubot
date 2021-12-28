@@ -78,7 +78,7 @@ async def redis(pong):
     await pong.edit("**✲✲**")
     await pong.edit("**✲✲✲**")
     await pong.edit("__DUAR__")
-    await pong.edit("🔥")
+    await pong.edit("⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
@@ -122,7 +122,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨Kʏʏ-Usᴇʀʙᴏᴛ✨**\n"
+        f"**✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -146,8 +146,8 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ Kʏʏ-Usᴇʀʙᴏᴛ  ✨**\n\n"
-        f"** ▹  Sɪɢɴᴀʟ   :** "
+        f"**✨ Kᴀʏᴢᴜ-Uʙᴏᴛ  ✨**\n\n"
+        f"** ▹  Oᴡɴᴇʀ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
         f"`{uptime}` \n"
