@@ -111,5 +111,4 @@ CMD_HELP.update(
          \n↳ : `Add an offline tag in your name and change profile pic to black`\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.unoff`\
          \n↳ : `Remove Offline Tag from your name and change profile pic to vars PROFILE_IMAGE.`"
-    }
-)
+    })
