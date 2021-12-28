@@ -1,4 +1,4 @@
-#KNT
+# KNT
 
 from sqlalchemy.exc import IntegrityError
 
