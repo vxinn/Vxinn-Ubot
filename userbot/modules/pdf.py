@@ -65,4 +65,4 @@ CMD_HELP.update(
         \n  •  **Function : **Untuk Mengconvert teks menjadi file PDF\
     "
     }
-)
+)}
