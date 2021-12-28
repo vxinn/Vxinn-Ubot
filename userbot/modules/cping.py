@@ -1,5 +1,6 @@
 # OWN MY CODE RENDY
 # Credits Rendy
+# RECODE KAYZU
 
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
@@ -52,5 +53,5 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.cping$")
-async def _(rendy):
+async def _(kayzu):
     await kayzu.reply(random.choice(cping))
