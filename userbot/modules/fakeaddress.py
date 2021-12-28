@@ -34,7 +34,7 @@ async def _(event):
     await event.edit(
         f"<b><u>INFORMASI BERHASIL DIKUMPULKAN</b></u>\n\n<b>Ip type :-</b><code>{geez1}</code>\n<b>Country code:- </b> <code>{geez2}</code>\n<b>State name :-</b><code>{geez3}</code>\n<b>City name :- </b><code>{geez4}</code>\n<b>zip :-</b><code>{geez5}</code>\n<b>Latitude:- </b> <code>{geez6}</code>\n<b>Longitude :- </b><code>{geez7}</code>\n",
         parse_mode="HTML",
-    )
+    )}
 
 
 CMD_HELP.update(
