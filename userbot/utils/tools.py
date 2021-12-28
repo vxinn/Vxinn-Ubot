@@ -1,4 +1,3 @@
-# tools
 import re
 import hashlib
 import asyncio
