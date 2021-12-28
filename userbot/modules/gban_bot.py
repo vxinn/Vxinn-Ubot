@@ -67,4 +67,4 @@ CMD_HELP.update({
     \nUsage: globally Ban Bot.\
     \n\n`.ungbanb` :\
     \nUsage: Cancel globally Ban Bot."
-})
+}
