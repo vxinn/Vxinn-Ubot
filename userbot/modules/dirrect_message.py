@@ -38,3 +38,5 @@ CMD_HELP.update(
         "message": "`.dm`\
     \nMengirim Pesan Dengan Jarak Jauh Dengan .dm <username> <pesan>."
     })
+
+})
