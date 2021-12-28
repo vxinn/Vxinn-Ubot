@@ -142,4 +142,4 @@ CMD_HELP.update({"purge": ">`.purge`"
                  "sd": ">`.sd <x> <pesan>`"
                  "\nUsage: Membuat pesan yang hancur sendiri dalam x detik."
                  "\nJaga agar detik di bawah 100 karena bot Anda akan tidur.",
-                 })
+                 )}
