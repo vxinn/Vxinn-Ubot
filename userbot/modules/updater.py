@@ -124,7 +124,7 @@ async def update(event, repo, ups_rem, ac_br):
     await update_requirements()
     await event.edit("**✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨** `Berhasil Di Update!`")
     await asyncio.sleep(1)
-    await event.edit("**✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨** `Di Restart....`")
+    await event.edit("**✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨** `Di Restart...`")
     await asyncio.sleep(1)
     await event.edit("`Mohon Menunggu Beberapa Detik.`")
     await asyncio.sleep(10)
@@ -146,7 +146,7 @@ async def update(event, repo, ups_rem, ac_br):
 @register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
-    await event.edit("**Mengecek Pembaruan, Silakan Menunggu....**")
+    await event.edit("**Mengecek Pembaruan, Silakan Menunggu...**")
     conf = event.pattern_match.group(1)
     off_repo = UPSTREAM_REPO_URL
     force_update = False
@@ -228,13 +228,13 @@ async def upstream(event):
             "`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`"
         )
     else:
-        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Loading....1%`")
-        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨ Loading....20%`")
-        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Loading....35%`")
-        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Loading....75%`")
+        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Loading...1%`")
+        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨ Loading...20%`")
+        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Loading...35%`")
+        await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Loading...75%`")
         await event.edit("` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Updating...90%`")
         await event.edit(
-            "` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Mohon Tunggu Sebentar....100%`"
+            "` Proses Update ✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨, Mohon Tunggu Sebentar...100%`"
         )
 
     if conf == "now":
