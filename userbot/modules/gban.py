@@ -184,7 +184,7 @@ async def gunben(userbot):
     if user:
         if user.id in DEVS:
             return await dark.edit(
-                "**Pengguna Ini tidak bisa di Blacklist, Karna Dia adalah pembuatku🤪**"
+                "**Pengguna Ini tidak bisa di Blacklist, Karna Dia adalah pembuatku😍**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
