@@ -89,7 +89,7 @@ async def hack(event):
     await asyncio.sleep(2)
     await event.edit("`Hacking.....8%completed\n TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\n Collecting Data Package seeing target account chat\n lding chat tg-bot bruteforce finished\n creating pdf of chat`")
     await asyncio.sleep(3)
-    await event.edit("`Hacking....15%completed\n Terminal:Chat history from telegram exporting to private database.\n Terminal 874379gvrfghhuu5tlotruhi5rbh installing`")
+    await event.edit("`Hacking....16%completed\n Terminal:Chat history from telegram exporting to private database.\n Terminal 874379gvrfghhuu5tlotruhi5rbh installing`")
     await asyncio.sleep(3)
     await event.edit("`Hacking....24%completed\n TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)\nCollecting Data Package seeing target account chat\n lding chat tg-bot bruteforce finished\nerminal:chat history from telegram exporting to private database.\n terminal 874379gvrfghhuu5tlotruhi5rbh installed\n Creating data into pdf`")
     await asyncio.sleep(2)
