@@ -233,4 +233,4 @@ CMD_HELP.update(
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.lirik` <Penyanyi atau Band - Judul Lagu>`\
          \n↳ : Mencari Lirik Lagu Yang Diinginkan."
     }
-)
+)}
