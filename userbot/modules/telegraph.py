@@ -12,7 +12,7 @@ r = telegraph.create_account(short_name="telegraph")
 auth_url = r["auth_url"]
 
 
-@register(outgoing=True, pattern=r"^\.tg (m|t)$")
+@register(outgoing=True, pattern=r"^\.tg (l|t)$")
 async def telegraphs(graph):
     await graph.edit("`Sedang Memproses...`")
     if not graph.text[0].isalpha() and graph.text[0] not in (
@@ -93,5 +93,5 @@ def resize_image(image):
     im.save(image, "PNG")
 
 
-CMD_HELP.update({"telegraph": ">`.tg` <m|t>"
+CMD_HELP.update({"telegraph": ">`.tg` <l|t>"
                  "\nUsage: Mengunggah t(Teks) Atau m(Media) Ke Telegraph."})
