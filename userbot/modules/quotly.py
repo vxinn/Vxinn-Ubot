@@ -111,4 +111,4 @@ CMD_HELP.update({
 \n↳ : Mengubah Pesan Menjadi sticker.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.xquote`\
 \n↳ : Mengubah Pesan Menjadi sticker."
-})
+)}
