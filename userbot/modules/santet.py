@@ -320,4 +320,4 @@ CMD_HELP.update({
     'santetonline':
     '`.santet`\
         \nUsage: Santet Online Buat Bercanda.'
-})
+)}
