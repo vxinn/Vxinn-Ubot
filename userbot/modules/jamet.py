@@ -103,7 +103,7 @@ async def typewriter(typew):
     await typew.edit("`🏃    🏂`")
     await typew.edit("**Untung Ngga Kena Njir**")
     sleep(1)
-    await typew.edit("🎯")
+    await typew.edit("💦")
     sleep(2)
     await typew.edit("**Mampus Kau Jamet**")
 
