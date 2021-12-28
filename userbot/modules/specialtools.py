@@ -60,4 +60,4 @@ CMD_HELP.update(
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.addaudio`\
          \n↳ : It will put the above audio to the replied video/gif.."
     }
-)
+)}
