@@ -328,4 +328,4 @@ CMD_HELP.update({
 \nUsage: Menghitung Grup, Chat, Bot etc...\
 \n\n`.data` <username> Atau Balas Ke Pesan Ketik `.data`\
 \nUsage: Mendapatkan Informasi Pengguna."
-})
+)}
