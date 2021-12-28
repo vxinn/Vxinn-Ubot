@@ -47,4 +47,4 @@ CMD_HELP.update(
         "\nUsage: `Hi @ender1324[bluid boi]`"
         "\nResult: Hi [bluid boi](tg://resolve?domain=ender1324)"
     }
-)
+)}
