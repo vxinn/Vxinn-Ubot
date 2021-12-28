@@ -136,4 +136,4 @@ CMD_HELP.update({
     \nUsage: to cek bin ip.\
 \n\n`.cc <mm|yy|cvv`\
 \nUsage: to cek Credits Card Stats."
-})
+)}
