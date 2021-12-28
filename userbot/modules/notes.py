@@ -150,4 +150,4 @@ CMD_HELP.update({
 \nUsage: Deletes the specified note.\
 \n\n`.rmbotnotes` <marie/rose>\
 \nUsage: Removes all notes of admin bots (Currently supported: Marie, Rose and their clones.) in the chat."
-})
+)}
