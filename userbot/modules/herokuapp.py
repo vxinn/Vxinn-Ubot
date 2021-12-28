@@ -1,15 +1,4 @@
-""
-   Heroku manager for your userbot
-""
-
-import heroku3
-import aiohttp
-import math
-
-import os
-import asyncio
-
-
+from userbot.events import register
 from userbot import (
     HEROKU_APP_NAME,
     HEROKU_API_KEY,
@@ -17,7 +6,15 @@ from userbot import (
     BOTLOG_CHATID,
     CMD_HELP,
     ALIVE_NAME)
-from userbot.events import register
+import asyncio
+import os
+import math
+import aiohttp
+import heroku3
+""
+Heroku manager for your userbot
+""
+
 
 heroku_api = "https://api.heroku.com"
 if HEROKU_APP_NAME is not None and HEROKU_API_KEY is not None:
