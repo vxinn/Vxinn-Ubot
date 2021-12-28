@@ -3,7 +3,6 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot import bot, CMD_HELP
 from userbot.events import register
 
-
 @register(outgoing=True, pattern=r"^\.hentai(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
