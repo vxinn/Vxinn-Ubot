@@ -231,12 +231,12 @@ async def amireallyalive(alive):
         f" **✨Kᴀʏᴢᴜ-Uʙᴏᴛ✨** \n\n"
         f"\n__**{KAYZU_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"◙ `Name       :` {DEFAULTUSER} \n"
-        f"◙ `Username   :` @{user.username} \n"
-        f"◙ `Telethon   :` {version.__version__} \n"
-        f"◙ `Python     :` {python_version()} \n"
-        f"◙ `Bot Ver    :` {BOT_VER} \n"
-        f"◙ `Modules    :` {len(modules)} \n"
+        f"◙ `NAME       :` {DEFAULTUSER} \n"
+        f"◙ `USERNAME   :` @{user.username} \n"
+        f"◙ `TELETHON   :` {version.__version__} \n"
+        f"◙ `PYTHON     :` {python_version()} \n"
+        f"◙ `BOT VER    :` {BOT_VER} \n"
+        f"◙ `MODULES    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
         f"[ɢʀᴏᴜᴘꜱ](https://t.me/kayzyuuu) | [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuuuu) | [ᴏᴡɴᴇʀ](https://t.me/Kayyzyu) | [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)")
     if ALIVE_LOGO:
@@ -307,16 +307,16 @@ async def redis(alive):
     await asyncio.sleep(2)
     output = (
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣  `Name     :` {DEFAULTUSER} \n"
-        f"┣  `Username :` @{user.username} \n"
-        f"┣  `Telethon :` Ver {version.__version__} \n"
-        f"┣  `Python   :` Ver {python_version()} \n"
-        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f"┣  `Bot Ver  :` {BOT_VER} \n"
-        f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot) \n"
-        f"┣  `Support  :` [Groups](https://t.me/kayyzyuuu) \n"
-        f"┣  `Owner    :` [Kayzu](https://t.me/Kayyzyu) \n"
+        f"┣  `NAME     :` {DEFAULTUSER} \n"
+        f"┣  `USERNAME :` @{user.username} \n"
+        f"┣  `TELETHON :` Ver {version.__version__} \n"
+        f"┣  `PYTHON   :` Ver {python_version()} \n"
+        f"┣  `BRANCH   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  `BOT VER  :` {BOT_VER} \n"
+        f"┣  `MODULES  :` {len(modules)} Modules \n"
+        f"┣  `GITHUB   :` [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot) \n"
+        f"┣  `SUPPORT  :` [Groups](https://t.me/kayzyuuu) \n"
+        f"┣  `OWNER    :` [Kayzu](https://t.me/Kayyzyu) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
