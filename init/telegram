@@ -38,4 +38,4 @@ kickstart_pub() {
     " " \
     "<b>Github Link: </b> https://github.com/Kayzyu/Kayzu-Ubot/commit/${COMMIT_HASH}"  
 fi
-}
+)
