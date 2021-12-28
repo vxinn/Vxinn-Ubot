@@ -1,3 +1,4 @@
+#repoubot
 name: FailCheck
 
 on: [push, pull_request]
