@@ -39,7 +39,7 @@ async def okgoogle(img):
         return
 
     if photo:
-        await img.edit("`Sedang Mencari Gambar Yang Mirip....`")
+        await img.edit("`Sedang Mencari Gambar Yang Mirip...`")
         try:
             image = Image.open(photo)
         except OSError:
