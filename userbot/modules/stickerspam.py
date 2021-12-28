@@ -80,4 +80,4 @@ CMD_HELP.update(
         \n\n**Command  :** `.sspam`\
         \n**Usage :** `Balas ke sticker, Fungsi Spam Satu Pack.`"
     }
-)
+)}
