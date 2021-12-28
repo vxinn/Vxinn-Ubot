@@ -59,4 +59,4 @@ CMD_HELP.update({
     "sangmata":
         "`.sg`\
           \nUsage: Mendapatkan Riwayat Nama Pengguna."
-})
+)}
