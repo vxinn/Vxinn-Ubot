@@ -1,6 +1,6 @@
 # Ported By @VckyouuBitch From Geez-Projects
 # Fixes BUGS, HEHE USAHA MEMANG TIDAK MENGHIANATI HASIL:)
-
+#
 
 import os
 from time import sleep
