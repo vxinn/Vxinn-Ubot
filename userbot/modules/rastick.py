@@ -123,4 +123,4 @@ CMD_HELP.update(
         "\nUsage: To stickerize your text with random sticker templates."
         "\n@StickerizerBot"
     }
-)
+)}
