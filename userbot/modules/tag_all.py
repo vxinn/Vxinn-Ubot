@@ -129,4 +129,4 @@ CMD_HELP.update({
 \n\n`.emojitag`\
 \nUsage: Untuk Mengetag semua anggota di grup dengan random emoji berbeda.\
 \n\n **NOTE :** Untuk Memberhentikan Tag ketik `.restart`."
-})
+)}
