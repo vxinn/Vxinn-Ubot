@@ -115,4 +115,4 @@ CMD_HELP.update({
     "statme":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.stats`\
     \n↳ : Count the Number of Dialogs you have in your Telegram Account."
-})
+)}
