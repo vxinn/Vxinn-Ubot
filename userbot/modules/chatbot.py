@@ -1,5 +1,6 @@
 # 🍀 © @tofik_dn
 # ⚠️ Do not remove credits
+#
 
 import requests
 from googletrans import Translator
