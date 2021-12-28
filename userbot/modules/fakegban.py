@@ -1,5 +1,6 @@
 # This is a troll indeed ffs *facepalm*
 # Ported from xtra-telegram by @heyworld
+
 import asyncio
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import ChannelParticipantsAdmins
