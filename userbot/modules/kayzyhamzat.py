@@ -1,7 +1,7 @@
 # Based Code by @adekmaulana
 # Improve by @aidilaryanto
-#
-#
+
+
 import os
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot.events import register
