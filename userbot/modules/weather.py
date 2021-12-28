@@ -138,4 +138,4 @@ CMD_HELP.update({
     "weather":
     "`.weather` <city> or `.weather` <city>, <country name/code>\
     \nUsage: Gets the weather of a city."
-})
+)
