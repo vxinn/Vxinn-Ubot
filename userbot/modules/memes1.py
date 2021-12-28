@@ -543,4 +543,4 @@ CMD_HELP.update({
 \nUsage: Just for Fun.\
 \n\n<`.ph` or `.threat` or `.trash` or `.trap` >\
 \nUsage: Balas Ke Sticker Atau Gambar Dan Liat Apa Yang Terjadi."
-})
+)}
