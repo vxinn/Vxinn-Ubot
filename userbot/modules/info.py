@@ -149,4 +149,3 @@ CMD_HELP.update({
     "info":
     ">`.info <username> Atau Balas Ke Pesan Pengguna Ketik .info`"
     "\nUsage: Mendapatkan Informasi Pengguna."
-
