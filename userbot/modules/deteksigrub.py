@@ -53,4 +53,3 @@ CMD_HELP.update({
     "deteksi":
         "`.dgrup` ; `.dg`\
     \nPenjelasan: Melihat Riwayat Grup Yang Pernah / Sedang dimasuki."
-
