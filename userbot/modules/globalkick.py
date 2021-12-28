@@ -1,15 +1,12 @@
-""
-credits to @mrconfused
-dont edit credits
-""
-
-
+from userbot import ALIVE_NAME, DEVS, CMD_HELP
+from userbot.events import register
+from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from telethon.tl.types import (
     MessageEntityMentionName)
-from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
-
-from userbot.events import register
-from userbot import ALIVE_NAME, DEVS, CMD_HELP
+""
+credits to @ mrconfused
+dont edit credits
+""
 
 
 async def get_user_from_event(event):
