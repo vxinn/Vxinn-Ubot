@@ -163,7 +163,8 @@ async def _(event):
         pic = None
     if not USER_AFK:
         last_seen_status = await bot(
-            functions.account.GetPrivacyRequest(types.InputPrivacyKeyStatusTimestamp())
+            functions.account.GetPrivacyRequest(
+    types.InputPrivacyKeyStatusTimestamp())
         )
         if isinstance(last_seen_status.rules, types.PrivacyValueAllowAll):
             afk_time = datetime.datetime.now()
