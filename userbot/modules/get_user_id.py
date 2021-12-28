@@ -20,7 +20,7 @@ async def _(event):
     if reply_message.sender.bot:
         await event.edit("`Mohon Reply Ke Pesan`")
         return
-    await event.edit("`Mencari ID.......`")
+    await event.edit("`Mencari ID......`")
     async with bot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
