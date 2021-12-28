@@ -1,7 +1,7 @@
-"""
+""
 credits to @mrconfused
 dont edit credits
-"""
+""
 
 
 from telethon.tl.types import (
