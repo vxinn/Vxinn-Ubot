@@ -52,4 +52,4 @@ CMD_HELP.update(
         "shazam": ">`.shazam <reply to voice/audio>"
         "\nUsage: Reverse search audio file using (@auddbot)"
     }
-)
+)}
