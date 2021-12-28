@@ -92,7 +92,7 @@ PMPERMIT_TEXT = os.environ.get("PMPERMIT_TEXT", None)
 
 # Custom Pmpermit pic
 PMPERMIT_PIC = os.environ.get(
-    "PMPERMIT_PIC") or "https://telegra.ph/file/202f5fdbf8c5edee9817f.jpg"
+    "PMPERMIT_PIC") or "https://telegra.ph/file/400c6979726832506c98f.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -226,11 +226,11 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/202f5fdbf8c5edee9817f.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/400c6979726832506c98f.jpg"
 
 # Default .helpme Logo
 INLINE_PIC = os.environ.get(
-    "INLINE_PIC") or "https://telegra.ph/file/202f5fdbf8c5edee9817f.jpg"
+    "INLINE_PIC") or "https://telegra.ph/file/400c6979726832506c98f.jpg"
 
 # Default emoji help
 EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
@@ -464,7 +464,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Kyyuserrbot")
+                    results = await event.client.inline_query(tgbotusername, "@Kayzuubot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
