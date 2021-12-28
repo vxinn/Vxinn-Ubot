@@ -1,4 +1,5 @@
-from userbot.modules.sql_helper import SESSION, BASE
+try:
+    from userbot.modules.sql_helper import SESSION, BASE
 except ImportError:
     raise AttributeError
 import threading
