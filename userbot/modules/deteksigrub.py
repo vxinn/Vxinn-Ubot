@@ -3,7 +3,6 @@ from userbot import CMD_HELP, bot
 from userbot.events import register
 
 
-
 @register(outgoing=True, pattern=r"^\.(?:dgrup|dg)\s?(.*)?")
 async def _(event):
     if event.fwd_from:
