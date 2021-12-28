@@ -1,4 +1,5 @@
 # Copyright (C) 2020 KenHV
+#
 
 from sqlalchemy.exc import IntegrityError
 
