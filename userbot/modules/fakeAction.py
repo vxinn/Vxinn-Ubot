@@ -1,5 +1,5 @@
 # Port By @IDnyaKosong From Kyy-Userbot
-# 
+#
 # Copyright (C) 2021 Kyy-Userbot
 
 from userbot.events import register
