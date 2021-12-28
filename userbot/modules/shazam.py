@@ -42,7 +42,8 @@ async def _(event):
         \n\n**Details : **__{result.text.splitlines()[2]}__"
             await event.edit(namem)
             await event.client.delete_messages(
-                conv.chat_id, [start_msg.id, send_audio.id, check.id, result.id, response.id]
+                conv.chat_id, [start_msg.id, send_audio.id,
+                    check.id, result.id, response.id]
             )
     except TimeoutError:
         return await event.edit("`Error: `@auddbot` tidak merespons, coba lagi nanti")
