@@ -1,4 +1,3 @@
-
 from userbot.events import register
 from userbot import ALIVE_NAME, CMD_HELP
 from platform import uname
