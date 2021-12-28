@@ -1,6 +1,6 @@
-"""
+""
    Heroku manager for your userbot
-"""
+""
 
 import heroku3
 import aiohttp
