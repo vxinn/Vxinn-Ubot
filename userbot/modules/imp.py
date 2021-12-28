@@ -95,4 +95,4 @@ CMD_HELP.update(
         "amongus": "`.imp`\
     \nUsage: Kirimkan gambar seorang impostor Among US dengan kalimat dari Anda."
     }
-)
+)}
