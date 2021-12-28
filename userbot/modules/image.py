@@ -41,4 +41,4 @@ CMD_HELP.update(
         "img": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.img <search_query>`\
          \n↳ : Does an image search on Google and shows 5 images."
     }
-)
+)}
