@@ -193,4 +193,4 @@ CMD_HELP.update(
         "\n↳ : Reply to a MEGA.nz link or paste your MEGA.nz link to "
         "download the file into your userbot server."
     }
-)
+)}
