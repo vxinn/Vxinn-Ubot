@@ -18,7 +18,7 @@ from userbot.events import register
 async def _(event):
     try:
         query = event.pattern_match.group(1)
-        await event.edit("`Mohon Menunggu, Saya Sedang Mencari Wallpaper.....`")
+        await event.edit("`Mohon Menunggu, Saya Sedang Mencari Wallpaper....`")
         async with bot.conversation("@tdapibot") as conv:
             try:
                 query1 = await conv.send_message(f"/wall {query}")
@@ -33,7 +33,7 @@ async def _(event):
             else:
                 img = await event.client.download_media(r1)
                 img2 = await event.client.download_media(r2)
-                await event.edit("`Sedang Mengunggah Wallpaper....`")
+                await event.edit("`Sedang Mengunggah Wallpaper...`")
                 p = await event.client.send_file(
                     event.chat_id,
                     img,
