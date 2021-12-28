@@ -80,4 +80,4 @@ CMD_HELP.update({
     "\n• : Tag online Members(work only if privacy off)."
     "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.tag off`"
     "\n• : Tag Offline Members(work only if privacy off)."
-})
+)}
