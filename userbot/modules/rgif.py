@@ -56,4 +56,4 @@ CMD_HELP.update({
     "rgif":
         "`.rgif`\
           \nUsage: Reply a image to convert image to rotate gif."
-})
+)}
