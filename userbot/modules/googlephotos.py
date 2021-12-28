@@ -227,7 +227,7 @@ async def upload_google_photos(event):
                         file_size,
                         event,
                         c_time,
-                        "uploading(gphoto)🧐?",
+                        "uploading(gphoto)🔎?",
                     )
                 )
                 logger.info(response.headers)
