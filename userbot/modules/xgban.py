@@ -35,4 +35,4 @@ CMD_HELP.update(
     \n\n**Syntax : **`.allban`\
     \n**Function : **ban all members in 1 cmnd"
     }
-)
+)}
