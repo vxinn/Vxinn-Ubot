@@ -1,3 +1,5 @@
+#pylint
+
 name: PyLint
 
 on: [push, pull_request]
