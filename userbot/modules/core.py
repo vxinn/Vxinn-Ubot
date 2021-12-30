@@ -61,8 +61,7 @@ async def _(event):
                         os.path.basename(downloaded_file_name)
                     )
                 )
-            else:
-                os.remove(downloaded_file_name)
+            else:os.remove(downloaded_file_name)
                 await event.edit("**Error!** Plugin ini sudah terinstall di userbot.")
         except Exception as e:  # pylint:disable=C0103,W0703
             await event.edit(str(e))
@@ -74,3 +73,5 @@ CMD_HELP.update(
         "core": "**Plugin : **`core`\
         \n\n  •  **Syntax : ** `.install` <reply ke file plugins>\
         \n  •  **Function : **Untuk Menginstall plugins ubot secara install>\
+      }
+)
