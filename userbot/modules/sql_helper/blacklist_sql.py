@@ -1,7 +1,6 @@
 try:
     from userbot.modules.sql_helper import SESSION, BASE
-except ImportError:
-    raise AttributeError
+except ImportError:raise AttributeError
 from sqlalchemy import Column, String, UnicodeText
 import threading
 
@@ -86,8 +85,7 @@ def num_blacklist_filter_chats():
         SESSION.close()
 
 
-def __load_chat_blacklists():
-    global CHAT_BLACKLISTS
+def __load_chat_blacklists():global CHAT_BLACKLISTS
     try:
         chats = SESSION.query(BlackListFilters.chat_id).distinct().all()
         for (chat_id,) in chats:  # remove tuple by ( ,)
