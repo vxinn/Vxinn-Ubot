@@ -5,6 +5,7 @@
 # you may not use this file except in compliance with the License.
 #
 # CI Runner Script for Paperplane CI
+
 # We need this directive
 # shellcheck disable=1090
 
