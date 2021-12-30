@@ -1,16 +1,16 @@
-from userbot.utils.tools import edit_delete
-from userbot.core.logger import logging
-telethon.tl.types import MessageEntityMentionName
+from telethon.tl.types import MessageEntityMentionName
 
+from userbot.core.logger import logging
+from userbot.utils.tools import edit_delete
 
 LOGS = logging.getLogger("userbot")
 
 
 async def get_user_from_event(
-    event, kyyevent=None, secondgroup=None, nogroup=False, noedits=False
+    event, roseevent=None, secondgroup=None, nogroup=False, noedits=False
 ):  # sourcery no-metrics
-    if kayzuevent is None:
-        kayzuevent = event
+    if roseevent is None:
+        roseevent = event
     if nogroup is False:
         if secondgroup:
             args = event.pattern_match.group(2).split(" ", 1)
@@ -58,11 +58,11 @@ async def get_user_from_event(
         elif not args:
             if not noedits:
                 await edit_delete(
-                    kayzuevent, "`Pass the user's username, id or reply!`", 5
+                    roseevent, "`Pass the user's username, id or reply!`", 5
                 )
             return None, None
     except Exception as e:
         LOGS.error(str(e))
     if not noedits:
-        await edit_delete(kayzuevent, "__Couldn't fetch user to proceed further__")
+        await edit_delete(roseevent, "__Couldn't fetch user to proceed further__")
     return None, None
