@@ -2,6 +2,7 @@
 #
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
+#
 """ Userbot module for having some fun with people. """
 
 import os
@@ -17,7 +18,6 @@ from cowpy import cow
 from userbot import ALIVE_NAME, CMD_HELP, bot
 from userbot.events import register
 from userbot.modules.admin import get_user_from_event
-
 # ================= CONSTANT =================
 METOOSTR = [
     "Aku Juga Terimakasih",
