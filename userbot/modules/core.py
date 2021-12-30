@@ -74,6 +74,5 @@ CMD_HELP.update(
         "core": "**Plugin : **`core`\
         \n\n  •  **Syntax :** `.install` <reply ke file plugins>\
         \n  •  **Function : **Untuk Menginstall plugins ubot secara instan.\
-    
     }
 )
