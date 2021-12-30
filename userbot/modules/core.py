@@ -39,7 +39,7 @@ def load_module(shortname):
         LOGS.info("Successfully imported " + shortname)
 
 
-@register(outgoing=True, pattern=r"^\.install$")
+@register(outgoing=True, pattern=r"^\.install")
 async def _(event):
     if event.fwd_from:
         return
@@ -59,8 +59,8 @@ async def _(event):
                 await event.edit(
                     "**Plugin** `{}` **Berhasil di install**".format(
                         os.path.basename(downloaded_file_name)
-                    )
                 )
+            )
             else:
                 os.remove(downloaded_file_name)
                 await event.edit("**Error!** Plugin ini sudah terinstall di userbot.")
@@ -74,6 +74,6 @@ CMD_HELP.update(
         "core": "**Plugin : **`core`\
         \n\n  •  **Syntax :** `.install` <reply ke file plugins>\
         \n  •  **Function : **Untuk Menginstall plugins ubot secara instan.\
-    "
+    
     }
 )
