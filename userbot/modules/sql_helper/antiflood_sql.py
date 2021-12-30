@@ -1,7 +1,6 @@
 try:
     from userbot.modules.sql_helper import SESSION, BASE
-except ImportError:
-    raise AttributeError
+except ImportError:raise AttributeError
 import threading
 from sqlalchemy import Column, Integer, String
 
@@ -83,8 +82,7 @@ def migrate_chat(old_chat_id, new_chat_id):
         SESSION.close()
 
 
-def __load_flood_settings():
-    global CHAT_FLOOD
+def __load_flood_settings():global CHAT_FLOOD
     try:
         all_chats = SESSION.query(FloodControl).all()
         CHAT_FLOOD = {
