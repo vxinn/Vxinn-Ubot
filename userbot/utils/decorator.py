@@ -18,7 +18,7 @@ from userbot import (
     SUDO_USERS,
     bot,
     tgbot,
-)
+):
 
 
 def man_cmd(
