@@ -29,7 +29,7 @@ def man_cmd(
     command: str = None,
     **args,
 )
-    args["func"] = lambda e: e.via_bot_id is None
+   args["func"] = lambda e: e.via_bot_id is None
     stack = inspect.stack()
     previous_stack_frame = stack[1]
     file_test = Path(previous_stack_frame.filename)
@@ -51,7 +51,7 @@ def man_cmd(
             or not pattern.startswith(r"\#")
             and pattern.startswith(r"^")
         )
-            man_reg = sudo_reg = re.compile(pattern)
+           man_reg = sudo_reg = re.compile(pattern)
         else:
             man_ = "\\" + CMD_HANDLER
             sudo_ = "\\" + SUDO_HANDLER
@@ -115,7 +115,7 @@ def man_cmd(
 def man_handler(
     **args,
 )
-    def decorator(func):
+   def decorator(func):
         bot.add_event_handler(func, events.NewMessage(**args, incoming=True))
         return func
 
