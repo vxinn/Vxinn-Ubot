@@ -98,7 +98,7 @@
       "value": "https://telegra.ph/file/a7a491a03d38756146ff0.jpg",
       "required": false
     },
-    "KYY_TEKS_KUSTOM": {
+    "KAYZU_TEKS_KUSTOM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .kayzualive (Isi Terserah)",
       "value": "I'am Using Kayzu-Ubot ✨",
       "required": false 
