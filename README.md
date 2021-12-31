@@ -1,29 +1,25 @@
-#     𝐊𝐀𝐘𝐙𝐔 - 𝐔𝐁𝐎𝐓
+#     ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ
 
+
+
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
+
+<p align="center">
+    <a href="https://github.com/Kayzyu/Kayzu-Ubot/commits/Kayzu-Ubot"><img src="https://img.shields.io/github/last-commit/Kayzyu/Kayzu-Ubot?color=ff0000&logo=github&logoColor=ffffff&style=for-the-badge" /></a>
+    <a href="https://github.com/Kayzyu/Kayzu-Ubot"> <img src="https://img.shields.io/github/repo-size/Kayzyu/Kayzu-Ubot?logo=github&style=for-the-badge" /></a>
+    <a href="https://pypi.org/project/Telethon/"><img src="https://img.shields.io/pypi/v/telethon?color=important&label=telethon&logo=python&logoColor=brightgreen&style=for-the-badge" /></a>
+    <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.6-purple?style=for-the-badge&logo=appveyor"/>
+    </p>
 
 
 </p>
-<p align="center">
-    <a href="https://github.com/Kayzyu/Kayzu-Ubot"> <img src="https://img.shields.io/github/repo-size/noob-kittu/YoneRobot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Kayzyu/Kayzu-Ubot/commits"> <img src="https://img.shields.io/github/last-commit/noob-kittu/YoneRobot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Kayzyu/Kayzu-Ubot/issues"> <img src="https://img.shields.io/github/issues/noob-kittu/YoneRobot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/Kayzyu/Kayzu-Ubot/network/members"> <img src="https://img.shields.io/github/forks/noob-kittu/YoneRobot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
-    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-</p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/400c6979726832506c98f.jpg">
+  <img src="https://telegra.ph/file/a7a491a03d38756146ff0.jpg">
 </p>
 
 ## <p align="center">DEPLOY TO HEROKU</p>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Kayzyu/Kayzu-Ubot">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Kayzyu/Deploy-Kayzu">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 
-##
-
-🔰 **THANKS YOU TO**
-*   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
-*   [Risman](https://github.com/mrismanaziz/Man-Userbot)   Man - Userbot
-*   [Skyzu](https://github.com/Skyzu/skyzu-userbot)   skyzu-userbot
-*   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
