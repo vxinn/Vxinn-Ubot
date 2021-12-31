@@ -18,7 +18,7 @@ from userbot import (
     SUDO_USERS,
     bot,
     tgbot,
-):
+)
 
 
 def man_cmd(
@@ -28,7 +28,7 @@ def man_cmd(
     forword=False,
     command: str = None,
     **args,
-):
+)
     args["func"] = lambda e: e.via_bot_id is None
     stack = inspect.stack()
     previous_stack_frame = stack[1]
@@ -50,7 +50,7 @@ def man_cmd(
             pattern.startswith(r"\#")
             or not pattern.startswith(r"\#")
             and pattern.startswith(r"^")
-        ):
+        )
             man_reg = sudo_reg = re.compile(pattern)
         else:
             man_ = "\\" + CMD_HANDLER
@@ -114,7 +114,7 @@ def man_cmd(
 
 def man_handler(
     **args,
-):
+)
     def decorator(func):
         bot.add_event_handler(func, events.NewMessage(**args, incoming=True))
         return func
