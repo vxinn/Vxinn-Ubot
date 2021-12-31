@@ -13,7 +13,6 @@ from time import gmtime, strftime
 from traceback import format_exc
 
 from telethon import events
-from userbot.events import man_cmd
 from userbot import LOGSPAMMER, bot
 
 
