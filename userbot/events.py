@@ -10,7 +10,6 @@ from asyncio import create_subprocess_shell as asyncsubshell
 from asyncio import subprocess as asyncsub
 from time import gmtime, strftime
 from traceback import format_exc
-from userbot.events import man_cmd
 from telethon import events
 from userbot import LOGSPAMMER, bot
 
