@@ -1,5 +1,4 @@
 # Thanks Full To Team Ultroid
-# Ported By Kayzu @Kayyzyu
 
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
