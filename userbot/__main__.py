@@ -13,9 +13,9 @@ from userbot import BOT_VER, LOGS, bot
 from userbot.modules import ALL_MODULES
 
 INVALID_PH = (
-    '\nERROR: The Phone No. entered is INVALID'
-    '\n Tip: Use Country Code along with number.'
-    '\n or check your phone number and try again !'
+    "\nERROR: The Phone No. entered is INVALID"
+    "\n Tip: Use Country Code along with number."
+    "\n or check your phone number and try again !"
 )
 
 try:
@@ -29,7 +29,8 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"⚡Kayzu-Ubot⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+     f"⚡Kayzu - Ubot⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]"
+)
 
 
 if len(argv) not in (1, 3, 4):
