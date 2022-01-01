@@ -115,8 +115,8 @@ async def repo_is_here(wannasee):
         "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)\n"
         "➣ **Owner Bot       :** [ᴋᴀʏᴢᴜ](t.me/Kayyzyu)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/kayzyuuu)\n"
-        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuuuu)\n"
+        "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/KayzuSupport)\n"
+        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuchannel)\n"
         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
     )
 
