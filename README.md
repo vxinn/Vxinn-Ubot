@@ -12,5 +12,30 @@
   <img src="https://telegra.ph/file/a7a491a03d38756146ff0.jpg">
 </p>
 
+
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku :</h3>
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Kayzyu/Deploy-Kayzu/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
+
+
+## Disclaimer
+
+```
+Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
+Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu Anda
+mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
+Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
+```
+
+
+### Support & Updates 
+<a href="https://t.me/KayzuSupporrt"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/kayzuchannel"><img src="https://img.shields.io/badge/Join-Updates%20Channel-white.svg?style=for-the-badge&logo=Telegram"></a>
+
+
+##
+
+🔰 **THANKS YOU TO**
+*   [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot)   Kyy - Userbot
+*   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
+*   [Skyzu](https://github.com/Skyzu/skyzu-userbot)   skyzu-userbot
+*   [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot)   Kayzu-Ubot
+*   DAN TERIMAKASIH KEPADA USERBOT LAINNYA
