@@ -919,13 +919,13 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ✨ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ✨",
+                    "Bantuan Dari ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ✨ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ✨",
+                    " ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡",
                     text="""°Kayzu-Ubot°""",
                     buttons=[
                         [
@@ -935,7 +935,7 @@ with bot:
 
                             custom.Button.url(
                                 "Channel",
-                                "t.me/kayzuchann")],
+                                "t.me/kayzuchannel")],
                         [custom.Button.url(
                             "License",
                             "https://github.com/Kayzyu/Kayzu-Ubot/LICENSE")],
