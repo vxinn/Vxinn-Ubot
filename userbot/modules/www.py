@@ -60,13 +60,13 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=1663258664, pattern=r"^.absen$")
-async def _(kyy):
-    await kyy.reply(random.choice(absen))
+async def _(kay):
+    await kau.reply(random.choice(absen))
 
 
 @register(incoming=True, from_users=1663258664, pattern=r"^.kyy$")
-async def _(kyy):
-    await kyy.reply(random.choice(pacar))
+async def _(kay):
+    await kay.reply(random.choice(pacar))
 
 
 @register(outgoing=True, pattern="^.sping$")
@@ -228,7 +228,8 @@ async def pingme(pong):
     await pong.edit("⚡")
     await asyncio.sleep(2)
     end = datetime.now()
-    duration = (end - start).microseconds / 9000
+    duration = (
+    end - start).microseconds / 9000
     await pong.edit(f"**⚡KayzuName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
