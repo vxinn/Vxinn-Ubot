@@ -244,7 +244,7 @@ async def redis(pong):
     await pong.edit("🤛")
     await pong.edit("🤜")
     await pong.edit("🤞")
-    await pong.edit("🤞")
+    await pong.edit("👇")
     await pong.edit("✌")
     await pong.edit("🤟")
     await pong.edit("🤘")
