@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[✨ Kayzu-Ubot Repo](https://github.com/Kayzyu/Kayzu-Ubot/blob/Kayzu-Ubot/README.md)"
+        "\n[⚡ Kayzu-Ubot Repo](https://github.com/Kayzyu/Kayzu-Ubot/blob/Kayzu-Ubot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -110,14 +110,15 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, I am using **✨ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ✨** \n"
-        "🔱━━━━━━━━━━━━━━━━━━━━━━🔱\n"
-        "➡ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)\n"
-        "➡ **Owner Bot       :** [ᴋᴀʏᴢᴜ](t.me/Kayzuuuuu)\n"
-        "🔱━━━━━━━━━━━━━━━━━━━━━━🔱\n"
-        "➡ **Support           :** [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/KayzuSupport)\n"
-        "➡ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuchannel)\n"
-        "🔱━━━━━━━━━━━━━━━━━━━━━━🔱\n"
+        "┏━━━━━━━━━━━━━━━━━━━━━━━\n"
+        "⎆ **Hey,I am Using**⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡\n"
+        "┣━━━━━━━━━━━━━━━━━━━━━━━\n"
+        "⎆ **Repo Ubot :** [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)\n"
+        "⎆ **Owner Bot :** [ᴋᴀʏᴢᴜ](t.me/Kayzuuuuu)\n"
+        "┣━━━━━━━━━━━━━━━━━━━━━━━\n"
+        "⎆ **Support   :** [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/KayzuSupport)\n"
+        "⎆ **Channel   :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuchannel)\n"
+        "┗━━━━━━━━━━━━━━━━━━━━━━━━\n"
     )
 
 
