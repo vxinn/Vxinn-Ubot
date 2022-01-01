@@ -229,7 +229,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (
-    end - start).microseconds / 9000
+        end - start).microseconds / 9000
     await pong.edit(f"**⚡KayzuName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
