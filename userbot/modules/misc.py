@@ -111,13 +111,13 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "**Hey**, I am using **✨ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ✨** \n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)\n"
-        "➣ **Owner Bot       :** [ᴋᴀʏᴢᴜ](t.me/Kayzuuuuu)\n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-        "➣ **Support           :** [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/KayzuSupport)\n"
-        "➣ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuchannel)\n"
-        "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
+        "🔱━━━━━━━━━━━━━━━━━━━━━━🔱\n"
+        "➡ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)\n"
+        "➡ **Owner Bot       :** [ᴋᴀʏᴢᴜ](t.me/Kayzuuuuu)\n"
+        "🔱━━━━━━━━━━━━━━━━━━━━━━🔱\n"
+        "➡ **Support           :** [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/KayzuSupport)\n"
+        "➡ **Channel           :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuchannel)\n"
+        "🔱━━━━━━━━━━━━━━━━━━━━━━🔱\n"
     )
 
 
@@ -125,7 +125,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        f"➣ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
+        f"➡ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
     )
 
 
