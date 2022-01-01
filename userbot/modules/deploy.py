@@ -45,7 +45,7 @@ async def _(event):
         "telethon.network.mtprotosender -\nINFO - Received response without parent request",
         "INFO - Kayzu-Ubot: Logged in as 557667062",
         "INFO - Kayzu-Ubot: Successfully...",
-        "919852+00:00 app[worker.1]: 919 - Kyy-Userbot -",
+        "919852+00:00 app[worker.1]: 919 - Kayzu-Ubot -",
         "INFO -  ✨Kayzu-Ubot✨  ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
         "**Build Succeeded**"
 
