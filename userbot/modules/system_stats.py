@@ -25,7 +25,6 @@ from userbot import (
     ALIVE_NAME,
     BOT_VER,
     CMD_HELP,
-    KAYZU_TEKS_KUSTOM,
     StartTime,
     UPSTREAM_REPO_BRANCH,
     bot,
