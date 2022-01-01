@@ -29,7 +29,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-     f"⚡Kayzu - Ubot⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]"
+    f"⚡Kayzu - Ubot⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]"
 )
 
 
