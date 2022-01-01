@@ -315,7 +315,7 @@ async def redis(alive):
     await alive.edit("✨")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
+        f"┏━━━━ ✨ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ✨ ━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
