@@ -5,8 +5,8 @@
 #
 """ Userbot start point """
 
-from importlib
-from import import_module
+
+from importlib from import import_module
 from sys import argv
 
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
