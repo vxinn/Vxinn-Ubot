@@ -5,7 +5,7 @@
 #
 """ Userbot start point """
 
-from importlib 
+from importlib
 from import import_module
 from sys import argv
 
@@ -27,8 +27,8 @@ except PhoneNumberInvalidError:
 
 for module_name in ALL_MODULES:
     imported_module = import_module(
-          "userbot.modules." + module_name
-)
+        "userbot.modules." + module_name
+    )
 
 
 LOGS.info(f"⚡Kayzu-Ubot⚡ ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
