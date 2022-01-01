@@ -236,7 +236,7 @@ INLINE_PIC = os.environ.get(
     "INLINE_PIC") or "https://telegra.ph/file/a7a491a03d38756146ff0.jpg"
 
 # Default emoji help
-EMOJI_HELP = os.environ.get("EMOJI_HELP") or "✨"
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "⚡"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -498,7 +498,7 @@ with bot:
                     f"✥ **ɪᴅ ᴘᴇɴɢɢᴜɴᴀ​ :** {c.id} \n"
                     f"✥ **ᴜsᴇʀɴᴀᴍᴇ​ :** @{c.username} \n"
                     f"✥ **ᴍᴇɴᴛɪᴏɴ​ :** [{get_display_name(c)}](tg://user?id={c.id}) \n\n"
-                    f"sᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ᴅɪsɪɴɪ ʏᴀ​ ✨\n",
+                    f"ꜱᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ᴅɪꜱɪɴɪ ʏᴀ​ ⚡\n",
                     buttons=[
                         [
                             Button.url("ʀᴇᴘᴏ​",
@@ -835,7 +835,7 @@ with bot:
                 AppPercentage = math.floor(
                     apps.get('quota_used') * 100 / quota)
                 text = (
-                    "✨ **ɪɴꜰᴏʀᴍᴀsɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ :**\n"
+                    "⚡ **ɪɴꜰᴏʀᴍᴀꜱɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ :**\n"
                     "╔════════════════════╗\n"
                     f" ☂ **ᴘᴇɴɢɢᴜɴᴀ ᴅʏɴᴏ sᴀᴀᴛ ɪɴɪ :**\n"
                     f"  ➽  `{AppHours}`**ᴊᴀᴍ**  `{AppMinutes}`**ᴍᴇɴɪᴛ**  "
@@ -912,7 +912,7 @@ with bot:
                 result = builder.photo(
                     file=kaylogo,
                     link_preview=False,
-                    text=f"Usᴇʀʙᴏᴛ​ Tᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
+                    text=f"ᴜʙᴏᴛ​ ᴛᴇʟᴇɢʀᴀᴍ\n\n**ɪɴʟɪɴᴇ ᴍᴇɴᴜ​​**\n\n❥ **ʙᴏᴛ ᴏꜰ :** {DEFAULTUSER}\n❥ **ʙᴏᴛ ᴠᴇʀ :** 5.0\n❥ **ᴍᴏᴅᴜʟᴇꜱ :** {len(plugins)}\n❥ **ʙᴏᴛʏᴏᴜ :** @{BOT_USERNAME}".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
