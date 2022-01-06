@@ -130,7 +130,7 @@ async def typewriter(typew):
     await typew.edit("**PADAHAL LO GAPUNYA HP**")
     sleep(1.5)
     await typew.edit("**MENDING LO NGEJAMET**")
-   p sleep(1.5)
+    sleep(1.5)
     await typew.edit("**BIAR LO PUNYA HP**")
     sleep(1.5)
     await typew.edit("**KASIAN MISKIN GAPUNYA HP**")
