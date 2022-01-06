@@ -119,9 +119,9 @@ CMD_HELP.update(
          \n↳ : `Menghentikan Obrolan Suara Pada Group.`\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.vcinvite`\
          \n↳ : Invite semua member yang berada di group."
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`
-         \n↳: 'Join Voice Chat.'
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`
-         \n↳: `Leave The Voice Chat.`
+        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`
+        \n↳: 'Join Voice Chat.'
+        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`
+        \n↳: `Leave The Voice Chat.`
     }
 )
