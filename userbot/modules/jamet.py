@@ -109,7 +109,7 @@ async def typewriter(typew):
 
 
 CMD_HELP.update({
-    "wibu": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.jamet1    `\
+    "jamet": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.jamet1    `\
     \n↳ : untuk melihat sesuatu yng menarik\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.jamet2`\
     \n↳ : Lari cukk ada jamett aarrghh."
