@@ -54,5 +54,5 @@ CMD_HELP.update(
          \n↳ : 'Join Voice Chat.'\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`\
          \n↳ : `Leave The Voice Chat.`\
-    }
+}
 )
