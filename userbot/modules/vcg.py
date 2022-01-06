@@ -8,7 +8,6 @@ from telethon.tl.functions.phone import DiscardGroupCallRequest as stopvc
 from telethon.tl.functions.phone import GetGroupCallRequest as getvc
 from telethon.tl.functions.phone import InviteToGroupCallRequest as invitetovc
 
-from pytgcalls.exceptions import NotConnectedError
 
 from userbot import CMD_HELP
 from userbot.events import register
