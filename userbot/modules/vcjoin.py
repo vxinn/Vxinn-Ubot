@@ -25,7 +25,7 @@ async def join_(event):
     else:
         chat = event.chat_id
     ultSongs = Player(chat, event)
-    if not ultSongs.group_call.is_connected:
+    if not kayzu.group_call.is_connected:
         await kayzu.vc_joiner()
 
 
@@ -47,11 +47,12 @@ async def leaver(event):
         del VIDEO_ON[chat]
     await event.eor(get_string("vcbot_1"))
 
+
 CMD_HELP.update(
     {
          "vcjoin": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`\
          \n↳ : 'Join Voice Chat.'\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`\
          \n↳ : `Leave The Voice Chat.`\
-}
+    }
 )
