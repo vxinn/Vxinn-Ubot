@@ -50,10 +50,9 @@ async def leaver(event):
 
 CMD_HELP.update(
     {
-         "vcjoin": 
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`
-         \n↳: 'Join Voice Chat.'
-         \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`
-         \n↳: `Leave The Voice Chat.`
+        "vcjoin": n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`
+        \n↳: 'Join Voice Chat.'
+        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`
+        \n↳: `Leave The Voice Chat.`
     }
 )
