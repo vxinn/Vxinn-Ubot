@@ -47,12 +47,10 @@ async def leaver(event):
         del VIDEO_ON[chat]
     await event.eor(get_string("vcbot_1"))
 
-
-CMD_HELP.update(
-    {
-        "vcjoin": n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`
-        \n↳: 'Join Voice Chat.'
-        \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`
-        \n↳: `Leave The Voice Chat.`
-    }
-)
+CMD_HELP.update({
+   "vcjoin": 
+n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.joinvc`
+\n↳: 'Join Voice Chat.'
+\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.leavevc`
+\n↳: `Leave The Voice Chat.`
+})
