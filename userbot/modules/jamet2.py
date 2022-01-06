@@ -3,7 +3,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.jamet(?: |$)(.*)')
+@register(outgoing=True, pattern='^.woi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -130,14 +130,14 @@ async def typewriter(typew):
     await typew.edit("**PADAHAL LO GAPUNYA HP**")
     sleep(1.5)
     await typew.edit("**MENDING LO NGEJAMET**")
-   p sleep(1.5)
+    sleep(1.5)
     await typew.edit("**BIAR LO PUNYA HP**")
     sleep(1.5)
     await typew.edit("**KASIAN MISKIN GAPUNYA HP**")
 
 
 CMD_HELP.update({
-    "toxic2": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.jamet`\
+    "jamet2": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.woi`\
     \n↳ : Cobain aja\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.goblok`\
     \n↳ : Cobain aja\
