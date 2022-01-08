@@ -30,7 +30,7 @@ async def gcast(event):
         msg = await event.get_reply_message()
     else:
         return await event.edit("**Berikan Sebuah Pesan atau Reply**")
-    kk = await event.edit("`Sedang Mengirim Pesan Secara Global... 📡`")
+    kk = await event.edit("`𝚂𝙴𝙳𝙰𝙽𝙶 𝙼𝙴𝙽𝙶𝙸𝚁𝙸𝙼 𝚅𝙸𝚁𝚄𝚂 𝚂𝙴𝙲𝙰𝚁𝙰 𝙶𝙻𝙾𝙱𝙰𝙻🦠`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
