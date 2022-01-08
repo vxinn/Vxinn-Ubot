@@ -113,11 +113,11 @@ async def repo_is_here(wannasee):
         "┏━━━━━━━━━━━━━━━━━━━━━━━\n"
         "⎆ **Hey,I am Using**⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡\n"
         "┣━━━━━━━━━━━━━━━━━━━━━━━\n"
-        "⎆ **Repo Ubot :** [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)\n"
-        "⎆ **Owner Bot :** [ᴋᴀʏᴢᴜ](t.me/Kayzuuuuu)\n"
+        "⎆ **Repo Ubot :** [ɢɪᴛʜᴜʙ](https://github.com/vxinn/Vxinn-Ubot)\n"
+        "⎆ **Owner Bot :** [𝚅𝚇𝙸𝙽](t.me/Vxinkalem)\n"
         "┣━━━━━━━━━━━━━━━━━━━━━━━\n"
         "⎆ **Support     :** [ꜱᴜᴘᴘᴏʀᴛ](https://t.me/KayzuSupport)\n"
-        "⎆ **Channel    :** [ᴄʜᴀɴɴᴇʟ](https://t.me/kayzuchannel)\n"
+        "⎆ **Channel    :** [ᴄʜᴀɴɴᴇʟ](https://t.me/aboutxin)\n"
         "┗━━━━━━━━━━━━━━━━━━━━━━━━\n"
     )
 
