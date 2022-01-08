@@ -268,13 +268,13 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:kayon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:xinon)\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Kayzu](t.me/Kayzuuuuu) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[vxin](t.me/Vxinkalem) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -315,17 +315,17 @@ async def redis(alive):
     await alive.edit("🔥")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━ ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡ ━━ \n"
-        f"┣  `Name     :` {DEFAULTUSER} \n"
+        f"┏━━━━ ⚡𝐕𝐗𝐈𝐍-𝐔𝐁𝐎𝐓⚡ ━━ \n"
+        f"┣  `Name     :` 𝚅𝚇𝙸𝙽 \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
         f"┣  `Python   :` Ver {python_version()} \n"
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot) \n"
+        f"┣  `GitHub   :` [𝚅𝚇𝙸𝙽](https://github.com/vxinn/Vxinn-Ubot) \n"
         f"┣  `Support  :` [Groups](t.me/KayzuSupport) \n"
-        f"┣  `Owner    :` [Kayzu](https://t.me/Kayzuuuuu) \n"
+        f"┣  `Owner    :` [𝚅𝚇𝙸𝙽](https://t.me/Vxinkalem) \n"
         f"┗━━━━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
