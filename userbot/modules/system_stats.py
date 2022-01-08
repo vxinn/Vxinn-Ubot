@@ -237,7 +237,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡** \n\n"
+        f" **⚡𝐕𝐗𝐈𝐍-𝐔𝐁𝐎𝐓⚡** \n\n"
         f"\n__**{KAYZU_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
@@ -247,7 +247,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/KayzuSupport) | [ᴄʜᴀɴɴᴇʟ](t.me/kayzuchannel) | [ᴏᴡɴᴇʀ](https://t.me/Kayzuuuuu) | [ɢɪᴛʜᴜʙ](https://github.com/Kayzyu/Kayzu-Ubot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/KayzuSupport) | [ᴄʜᴀɴɴᴇʟ](t.me/aboutxin) | [ᴏᴡɴᴇʀ](https://t.me/Vxinkalem) | [ɢɪᴛʜᴜʙ](https://github.com/vxinn/Vxinn-Ubot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
