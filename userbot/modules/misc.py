@@ -87,7 +87,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's Something for You to Read :\n"
-        "\n[⚡ Kayzu-Ubot Repo](https://github.com/Kayzyu/Kayzu-Ubot/blob/Kayzu-Ubot/README.md)"
+        "\n[⚡ Vxinn-Ubot Repo](https://github.com/vxinn/Vxinn-Ubot/blob/Vxinn-Ubot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Special - Note](https://telegra.ph/Special-Note-11-02)")
 
@@ -111,7 +111,7 @@ async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
         "┏━━━━━━━━━━━━━━━━━━━━━━━\n"
-        "⎆ **Hey,I am Using**⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡\n"
+        "⎆ **Hey,I am Using**⚡𝐕𝐗𝐈𝐍-𝐔𝐁𝐎𝐓⚡\n"
         "┣━━━━━━━━━━━━━━━━━━━━━━━\n"
         "⎆ **Repo Ubot :** [ɢɪᴛʜᴜʙ](https://github.com/vxinn/Vxinn-Ubot)\n"
         "⎆ **Owner Bot :** [𝚅𝚇𝙸𝙽](t.me/Vxinkalem)\n"
