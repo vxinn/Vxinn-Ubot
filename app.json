@@ -1,6 +1,6 @@
 {
-  "name": "Kayzu-Ubot",
-  "description": "KAYZU-UBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "Vxinn-Ubot",
+  "description": "VXINN-UBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/a7a491a03d38756146ff0.jpg",
   "keywords": [
     "telegram",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Kayzyu/Kayzu-Ubot/Kayzu-Ubot",
-  "telegram": "https://t.me/Kayzuuuuu",
+  "repository": "https://github.com/vxinn/Vxinn-Ubot/Vxinn-Ubot",
+  "telegram": "https://t.me/Vxinkalem",
   "success_url": "https://t.me/KayzuSupport",
   "stack": "container",
   "env": {
