@@ -841,8 +841,7 @@ with bot:
                     f"🌙Dyno Bulan Ini: \n"
                     f"➽ {hours} ᴊᴀᴍ - {minutes} ᴍᴇɴɪᴛ [ {percentage}% ] \n"
                     f" ⚡ Bot Of  : {ALIVE_NAME} \n"
-                    f"© @Kayzuuuuu"
-            )
+                    f"© @Kayzuuuuu")
                 await event.edit(
                     text,
                     file=kaylogo,
