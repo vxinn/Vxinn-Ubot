@@ -383,7 +383,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ Berhasil Diaktifkan☯**\n━━━━━━━━━━━━━━━━━━━\n✧ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n✧ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n✧ **ꜱᴜᴘᴘᴏʀᴛ​ :** @KayzuSupport\n✧ **ᴄʜᴀɴɴᴇʟ​ :** @kayzuchannel \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ Berhasil Diaktifkan🌸**\n━━━━━━━━━━━━━━━━━━━\n✧ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n✧ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n✧ **ꜱᴜᴘᴘᴏʀᴛ​ :** @KayzuSupport\n✧ **ᴄʜᴀɴɴᴇʟ​ :** @kayzuchannel \n━━━━━━━━━━━━━━━━━━━")
     return
 
 
@@ -497,7 +497,7 @@ with bot:
                     f"**Hallo Kamu**\n**Welcome To** [{get_display_name(u)}](tg://user?id={u.id}) \n\n"
                     f"✥ **ᴘᴇɴɢɢᴜɴᴀ​ :** {get_display_name(c)} \n"
                     f"✥ **ɪᴅ ᴘᴇɴɢɢᴜɴᴀ​ :** {c.id} \n"
-                    f"✥ **ᴜsᴇʀɴᴀᴍᴇ​ :** @{c.username} \n"
+                    f"✥ **ᴜ➽ꜱᴇʀɴᴀᴍᴇ​ :** @{c.username} \n"
                     f"✥ **ᴍᴇɴᴛɪᴏɴ​ :** [{get_display_name(c)}](tg://user?id={c.id}) \n\n"
                     f"ꜱᴇᴍᴏɢᴀ ʙᴇᴛᴀʜ ᴅɪꜱɪɴɪ ʏᴀ​ ⚡\n",
                     buttons=[
@@ -596,7 +596,7 @@ with bot:
                     ]
                 )
             else:
-                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n✨ Branch : Kayzu-Ubot"
+                reply_pop_up_alert = f"🤴 Name : {DEFAULTUSER}\n🤖 Bot Ver : 7.0\n🛠 Modules : {len(plugins)}\n⚡ Branch : Kayzu-Ubot"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -842,7 +842,7 @@ with bot:
                     f"  ➽  `{AppHours}`**ᴊᴀᴍ**  `{AppMinutes}`**ᴍᴇɴɪᴛ**  "
                     f"**|**  [`{AppPercentage}`**%**]"
                     "\n◖════════════════════◗\n"
-                    " ☂ **sɪsᴀ ᴋᴏᴜᴛᴀ ᴅʏɴᴏ ʙᴜʟᴀɴ ɪɴɪ :**\n"
+                    " ☂ **ꜱɪꜱᴀ ᴋᴏᴜᴛᴀ ᴅʏɴᴏ ʙᴜʟᴀɴ ɪɴɪ :**\n"
                     f"  ➽  `{hours}`**ᴊᴀᴍ**  `{minutes}`**ᴍᴇɴɪᴛ**  "
                     f"**|**  [`{percentage}`**%**]\n"
                     f" ✠➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}  "
