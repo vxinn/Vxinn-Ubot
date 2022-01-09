@@ -181,7 +181,7 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "⚡**ɪɴꜰᴏʀᴍᴀꜱɪ ᴅʏɴᴏ ʜᴇʀᴏᴋᴜ:**\n"
-                f" ➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME} "
+                f" ➲ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}"
                 "╔═══════════════════╗\n"
                 f"🔋 **ᴘᴇɴɢɢᴜɴᴀ ᴅʏɴᴏ ꜱᴀᴀᴛ ɪɴɪ :**\n"
                 f"  ➽  `{AppHours}`**ᴊᴀᴍ**  `{AppMinutes}`**ᴍᴇɴɪᴛ**  "
