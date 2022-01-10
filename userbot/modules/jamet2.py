@@ -3,29 +3,29 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.woi(?: |$)(.*)')
+@register(outgoing=True, pattern='^*xin(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("**WOYY JAMET!!**")
+    await typew.edit("**VXIN GANTENG!!**")
     sleep(1)
-    await typew.edit("**JANGAN SOK JAGOAN DAH LU**")
+    await typew.edit("**VXIN BAIK HATI**")
     sleep(1)
-    await typew.edit("**MUKA MASIH KAYA JAMET AJA**")
+    await typew.edit("**VXIN IMUT**")
     sleep(1)
-    await typew.edit("**BANGGA LU HAHAHAHA**")
+    await typew.edit("**VXIN VXIN **")
     sleep(1)
-    await typew.edit("**COBA DEH NGACA MUKA LU KAN HINA BANGET**")
-    sleep(1)
-    await typew.edit("**HAHAHAHA**")
-    sleep(1)
-    await typew.edit("**MAKANYA GANTENG JAMET**")
-    sleep(1)
-    await typew.edit("**BIAR MUKALU GAK DIHINA TERUS**")
-    sleep(1)
-    await typew.edit("**SAMA ORANG LAIN**")
+    await typew.edit("**LAMA LAMA DI VAKSIN**")
     sleep(1)
     await typew.edit("**HAHAHAHA**")
+    sleep(1)
+    await typew.edit("**INTINYA TER VIKSIN VIKSIN**")
+    sleep(1)
+    await typew.edit("**ALAY AJG**")
+    sleep(1)
+    await typew.edit("**YAHAHA WAHYOE SLEMEK SLETOD TER ENTOD ENTOD**")
+    sleep(1)
+    await typew.edit("**UDAH BOT NYA CAPE MAU ISTIRAHAT BABAY BABU NYA VIKSIN😁**")
 # Create by myself @localheart
 
 
