@@ -200,7 +200,7 @@ async def _(dyno):
     except BaseException:
         return await dyno.reply(
             "`Please make sure your Heroku API Key, Your App name are configured correctly in the heroku var.`"
-        )
+    )
     await dyno.edit("`Sedang Mengambil Logs Anda`")
     with open("logs.txt", "w") as log:
         log.write(app.get_log())
@@ -213,7 +213,8 @@ async def _(dyno):
     return os.remove("logs.txt")
 
 
-CMD_HELP.update({"herokuapp": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.usage`"
+CMD_HELP.update(
+          {"herokuapp": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.usage`"
                  "\n↳ : Check Quota Dyno Heroku"
                  "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.set var <NEW VAR> <VALUE>`"
                  "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
@@ -223,4 +224,5 @@ CMD_HELP.update({"herokuapp": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.usage`"
                  "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
                  "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.del var <VAR>`"
                  "\n↳ : Menghapus Variabel Yang Ada"
-                 "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
+                 "\nSetelah Menghapus Variabel, Bot Akan Di Restart."}
+)
