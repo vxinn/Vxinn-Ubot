@@ -133,7 +133,7 @@ async def set_var(var):
             )
         await var.edit(
             "`Sedang Di Proses, Mohon Menunggu Dalam Beberapa Detik 😼`"
-)
+        )
     else:
         if BOTLOG:
             await var.client.send_message(
@@ -144,7 +144,7 @@ async def set_var(var):
             )
         await var.edit(
             "`Menambahkan Config Vars...`"
-    )
+        )
     heroku_var[variable] = value
 
 
@@ -226,7 +226,7 @@ async def _(dyno):
     except BaseException:
         return await dyno.reply(
             "`Please make sure your Heroku API Key, Your App name are configured correctly in the heroku var.`"
-    )
+        )
     await dyno.edit(
         "`Sedang Mengambil Logs Anda`"
     )
@@ -242,13 +242,13 @@ async def _(dyno):
 
 
 CMD_HELP.update({"herokuapp": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.usage`"
-               "\n↳ : Check Quota Dyno Heroku"
-               "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.set var <NEW VAR> <VALUE>`"
-               "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
-               "\nSetelah Menyetel Variabel Tersebut, Rose-Userbot Akan Di Restart."
-               "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.get var atau .get var <VAR>`"
-               "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
-               "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
-               "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.del var <VAR>`"
-               "\n↳ : Menghapus Variabel Yang Ada"
-               "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
+                 "\n↳ : Check Quota Dyno Heroku"
+                 "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.set var <NEW VAR> <VALUE>`"
+                 "\n↳ : Tambahkan Variabel Baru Atau Memperbarui Variabel"
+                 "\nSetelah Menyetel Variabel Tersebut, Rose-Userbot Akan Di Restart."
+                 "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.get var atau .get var <VAR>`"
+                 "\n↳ : Dapatkan Variabel Yang Ada, !!PERINGATAN!! Gunakanlah Di Grup Privasi Anda."
+                 "\nIni Mengembalikan Semua Informasi Pribadi Anda, Harap berhati-hati."
+                 "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.del var <VAR>`"
+                 "\n↳ : Menghapus Variabel Yang Ada"
+                 "\nSetelah Menghapus Variabel, Bot Akan Di Restart."})
