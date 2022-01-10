@@ -31,7 +31,7 @@ async def perkenalan(event):
 @register(outgoing=True, pattern="^.perkenalan(?: |$)(.*)")
 async def perkenalan(event):
     event.pattern_match.group(1)
-    await event.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
+    await event.edit(f"`Hai Guys , Perkenalkan Nama Gw ᴠxɪɴ`")
     sleep(2)
     await event.edit(f"`Gw Tinggal Di bekasi abiez`")
     sleep(2)
