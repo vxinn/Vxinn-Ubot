@@ -383,7 +383,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ Berhasil Diaktifkan☯**\n━━━━━━━━━━━━━━━━━━━\n✧ **ʙᴏᴛ ᴏꜰ :** {ALIVE_NAME}\n✧ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n✧ **ꜱᴜᴘᴘᴏʀᴛ​ :** @KayzuSupport\n✧ **ᴄʜᴀɴɴᴇʟ​ :** @kayzuchannel \n━━━━━━━━━━━━━━━━━━━")
+    await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"**ᴠxɪɴ-ᴜʙᴏᴛ Berhasil Diaktifkan☯**\n━━━━━━━━━━━━━━━━━━━\n✧ **ʙᴏᴛ ᴏꜰ :** ᴠxɪɴ\n✧ **ʙᴏᴛ ᴠᴇʀ :** 7.0\n━━━━━━━━━━━━━━━━━━━\n✧ **ꜱᴜᴘᴘᴏʀᴛ​ :** @KayzuSupport\n✧ **ᴄʜᴀɴɴᴇʟ​ :** @@aboutxin \n━━━━━━━━━━━━━━━━━━━")
     return
 
 
