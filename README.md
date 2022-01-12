@@ -14,7 +14,8 @@
 
 
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku :</h3>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Kayzyu/Kayzu-deploy-template/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-black?style=flat&logo=heroku" width="150" height="30.00" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Kayzyu/Kayzu-deploy-template/"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-aqua?style=flat&logo=heroku" width="300" height="40.00" /></a></p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=bXVoYW1tYWRyaXpreTE2L0t5eS1Vc2VyYm90IEt5eS1Vc2VyYm90"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-aqua?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
 
 ## Disclaimer
