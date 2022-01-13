@@ -74,9 +74,9 @@ async def redis(pong):
     """For .ping command, ping the userbot from any chat."""
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**☢**")
-    await pong.edit("**☢☢**")
-    await pong.edit("**☢☢☢**")
+    await pong.edit("**♩**")
+    await pong.edit("**♪♪**")
+    await pong.edit("**♬♬♬**")
     await pong.edit("__𝙳𝙾𝚁__")
     await pong.edit("🔥")
     end = datetime.now()
@@ -160,18 +160,18 @@ async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**✧**")
-    await pong.edit("**✧✧**")
-    await pong.edit("**✧✧✧**")
-    await pong.edit("**✧✧✧✧**")
-    await pong.edit("💥")
+    await pong.edit("**⍟**")
+    await pong.edit("**⍟⍟**")
+    await pong.edit("**⍟⍟⍟**")
+    await pong.edit("**⍟⍟⍟⍟**")
+    await pong.edit("⭐")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"════✠ **TEST PING** ✠════\n"
+        f"»»——⍟ **ᴘɪɴɢ** ⍟——««\n"
         f"🌸 **ᴘɪɴɢᴇʀ :** "
         f"`%sms` \n"
-        f"☂️ **ᴜᴘᴛɪᴍᴇ :** "
+        f"⏱️ **ᴜᴘᴛɪᴍᴇ :** "
         f"`{uptime}` \n"
         f"✠➲ **ᴏᴡɴᴇʀ :** `{ALIVE_NAME}`" % (duration)
     )
@@ -223,7 +223,7 @@ def speed_convert(size):
 async def pingme(pong):
     """For .ping command, ping the userbot from any chat."""
     start = datetime.now()
-    await pong.edit("**◕‿- PONG!!🏓**")
+    await pong.edit("**❖‿- PONG!!🏓**")
     await asyncio.sleep(1)
     await pong.edit("🌸")
     await asyncio.sleep(2)
