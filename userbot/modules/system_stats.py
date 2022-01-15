@@ -320,7 +320,7 @@ async def redis(alive):
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
         f"┣  `Python   :` Ver {python_version()} \n"
-        f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
+        f"┣  `Branch   :` ᴠxɪɴ-ᴜʙᴏᴛ \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
         f"┣  `GitHub   :` [𝚅𝚇𝙸𝙽](https://github.com/vxinn/Vxinn-Ubot) \n"
