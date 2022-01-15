@@ -229,7 +229,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**🌸ᴏᴡɴᴇʀ : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**🌸ᴏᴡɴᴇʀ : ᴠxɪɴ**\n📗 `%sms`" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
