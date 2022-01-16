@@ -4,19 +4,30 @@
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
 
+import asyncio
 import random
+import time
+import redis
+
+from datetime import datetime
+
+from userbot import (
+    CMD_HELP, 
+    DEVS, 
+    StartTime,
+)
+    
 from userbot.events import register
 
 # OWN BY RENDY CODE
 # CPING
 
 cping = [
-    "**Hadir cping** `100.699` ",
+    "**Hadir cping** `100.696` ",
     "**Hadir speed** `999.999` ",
-    "**Hadir boosted** `565.930` ",
-    "**Hadir pingers power** `789.666` ",
+    "**Hadir boosted** `538.939` ",
+    "**Hadir pingers power** `889.999` ",
 ]
-
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
@@ -47,4 +58,4 @@ async def get_readable_time(seconds: int) -> str:
 
 @register(incoming=True, from_users=DEVS, pattern=r"^.cping$")
 async def _(rendy):
-    await kay.reply(random.choice(cping))
+    await rendy.reply(random.choice(cping))
