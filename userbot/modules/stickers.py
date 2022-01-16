@@ -51,7 +51,7 @@ OWNER = user.first_name
 OWNER_ID = user.id
 
 
-@man_cmd(pattern="(?:tikel|kang)\s?(.)?")
+@man_cmd(pattern="(?:tikel|kang)\\s?(.)?")
 async def kang(args):
     user = await args.client.get_me()
     if not user.username:
@@ -386,8 +386,7 @@ async def get_pack_info(event):
         f"➠ **Official:** `{get_stickerset.set.official}`\n"
         f"➠ **Arsip:** `{get_stickerset.set.archived}`\n"
         f"➠ **Sticker Dalam Pack:** `{len(get_stickerset.packs)}`\n"
-        f"➠ **Emoji Dalam Pack:** {' '.join(pack_emojis)}"
-    )
+        f"➠ **Emoji Dalam Pack:** {' '.join(pack_emojis)}")
 
     await xx.edit(OUTPUT)
 
@@ -512,7 +511,7 @@ async def sticker_to_png(sticker):
     await xx.delete()
 
 
-@man_cmd(pattern="stickers ?([\s\S]*)")
+@man_cmd(pattern="stickers ?([\\s\\S]*)")
 async def cb_sticker(event):
     query = event.pattern_match.group(1)
     if not query:
