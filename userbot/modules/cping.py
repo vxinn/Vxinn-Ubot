@@ -4,19 +4,13 @@
 """ Userbot module containing commands related to the \
     Information Superhighway (yes, Internet). """
 
-import asyncio
 import random
-import time
-import redis
 
-from datetime import datetime
 
 from userbot import (
-    CMD_HELP, 
-    DEVS, 
-    StartTime,
+    DEVS,
 )
-    
+
 from userbot.events import register
 
 # OWN BY RENDY CODE
@@ -28,6 +22,7 @@ cping = [
     "**Hadir boosted** `538.939` ",
     "**Hadir pingers power** `889.999` ",
 ]
+
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
