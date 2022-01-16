@@ -51,7 +51,7 @@ OWNER = user.first_name
 OWNER_ID = user.id
 
 
-@man_cmd(pattern="(?:tikel|kang)\\s?(.)?")
+@man_cmd(pattern="(?:tikel|kang)\s?(.)?")
 async def kang(args):
     user = await args.client.get_me()
     if not user.username:
@@ -386,7 +386,8 @@ async def get_pack_info(event):
         f"➠ **Official:** `{get_stickerset.set.official}`\n"
         f"➠ **Arsip:** `{get_stickerset.set.archived}`\n"
         f"➠ **Sticker Dalam Pack:** `{len(get_stickerset.packs)}`\n"
-        f"➠ **Emoji Dalam Pack:** {' '.join(pack_emojis)}")
+        f"➠ **Emoji Dalam Pack:** {' '.join(pack_emojis)}"
+    )
 
     await xx.edit(OUTPUT)
 
@@ -511,7 +512,7 @@ async def sticker_to_png(sticker):
     await xx.delete()
 
 
-@man_cmd(pattern="stickers ?([\\s\\S]*)")
+@man_cmd(pattern="stickers ?([\s\S]*)")
 async def cb_sticker(event):
     query = event.pattern_match.group(1)
     if not query:
@@ -587,29 +588,39 @@ async def _(event):
     remove("sticker.png")
 
 
-CMD_HELP.update({"stickers": f"**Plugin : **`stickers`\
-                 \n\n  •  **Syntax :** `{cmd}kang` atau `{cmd}tikel` [emoji]\
-                 \n  •  **Function : **Balas .kang Ke Sticker Atau Gambar Untuk Menambahkan Ke Sticker Pack Mu\
-                 \n\n  •  **Syntax :** `{cmd}kang` [emoji] atau `{cmd}tikel` [emoji]\
-                 \n  •  **Function : **Balas {cmd}kang emoji Ke Sticker Atau Gambar Untuk Menambahkan dan costum emoji sticker Ke Pack Mu\
-                 \n\n  •  **Syntax :** `{cmd}pkang` <nama sticker pack>\
-                 \n  •  **Function : **Balas {cmd}pkang Ke Sticker Untuk Mencuri semua sticker pack tersebut\
-                 \n\n  •  **Syntax :** `{cmd}delsticker` <reply sticker>\
-                 \n  •  **Function : **Untuk Menghapus sticker dari Sticker Pack.\
-                 \n\n  •  **Syntax :** `{cmd}editsticker` <reply sticker> <emoji>\
-                 \n  •  **Function : **Untuk Mengedit emoji stiker dengan emoji yang baru.\
-                 \n\n  •  **Syntax :** `{cmd}stickerinfo`\
-                 \n  •  **Function : **Untuk Mendapatkan Informasi Sticker Pack.\
-                 \n\n  •  **Syntax :** `{cmd}stickers` <nama sticker pack >\
-                 \n  •  **Function : **Untuk Mencari Sticker Pack.\
-                 \n\n  •  **NOTE:** Untuk Membuat Sticker Pack baru Gunakan angka dibelakang `{cmd}kang`\
-                 \n  •  **CONTOH:** `{cmd}kang 2` untuk membuat dan menyimpan ke sticker pack ke 2\"})
+CMD_HELP.update(
+    {
+        "stickers": f"**Plugin : **`stickers`\
+        \n\n  •  **Syntax :** `{cmd}kang` atau `{cmd}tikel` [emoji]\
+        \n  •  **Function : **Balas .kang Ke Sticker Atau Gambar Untuk Menambahkan Ke Sticker Pack Mu\
+        \n\n  •  **Syntax :** `{cmd}kang` [emoji] atau `{cmd}tikel` [emoji]\
+        \n  •  **Function : **Balas {cmd}kang emoji Ke Sticker Atau Gambar Untuk Menambahkan dan costum emoji sticker Ke Pack Mu\
+        \n\n  •  **Syntax :** `{cmd}pkang` <nama sticker pack>\
+        \n  •  **Function : **Balas {cmd}pkang Ke Sticker Untuk Mencuri semua sticker pack tersebut\
+        \n\n  •  **Syntax :** `{cmd}delsticker` <reply sticker>\
+        \n  •  **Function : **Untuk Menghapus sticker dari Sticker Pack.\
+        \n\n  •  **Syntax :** `{cmd}editsticker` <reply sticker> <emoji>\
+        \n  •  **Function : **Untuk Mengedit emoji stiker dengan emoji yang baru.\
+        \n\n  •  **Syntax :** `{cmd}stickerinfo`\
+        \n  •  **Function : **Untuk Mendapatkan Informasi Sticker Pack.\
+        \n\n  •  **Syntax :** `{cmd}stickers` <nama sticker pack >\
+        \n  •  **Function : **Untuk Mencari Sticker Pack.\
+        \n\n  •  **NOTE:** Untuk Membuat Sticker Pack baru Gunakan angka dibelakang `{cmd}kang`\
+        \n  •  **CONTOH:** `{cmd}kang 2` untuk membuat dan menyimpan ke sticker pack ke 2\
+    "
+    }
+)
 
 
-CMD_HELP.update({"sticker_v2": f"**Plugin : **`stickers`\
-                 \n\n  •  **Syntax :** `{cmd}getsticker`\
-                 \n  •  **Function : **Balas Ke Stcker Untuk Mendapatkan File 'PNG' Sticker.\
-                 \n\n  •  **Syntax :** `{cmd}get`\
-                 \n  •  **Function : **Balas ke sticker untuk mendapatkan foto sticker\
-                 \n\n  •  **Syntax :** `{cmd}itos`\
-                 \n  •  **Function : **Balas ke foto untuk membuat foto menjadi sticker\"})
+CMD_HELP.update(
+    {
+        "sticker_v2": f"**Plugin : **`stickers`\
+        \n\n  •  **Syntax :** `{cmd}getsticker`\
+        \n  •  **Function : **Balas Ke Stcker Untuk Mendapatkan File 'PNG' Sticker.\
+        \n\n  •  **Syntax :** `{cmd}get`\
+        \n  •  **Function : **Balas ke sticker untuk mendapatkan foto sticker\
+        \n\n  •  **Syntax :** `{cmd}itos`\
+        \n  •  **Function : **Balas ke foto untuk membuat foto menjadi sticker\
+    "
+    }
+)
