@@ -48,11 +48,12 @@ DEF_UNAPPROVED_MSG = (
     "    ⚡ 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 ⚡ \n"
     "╚═════════════════════╝\n"
     "**TOLONG JANGAN MELAKUKAN SPAM CHAT KEPADA MAJIKAN SAYA** \n"
-    f"**YA KONTOL KARENA SAYA AKAN OTOMATIS MEMBLOKIR KAMU, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN KAMU** \n"
+    f"**YA TOLOL KARENA SAYA AKAN OTOMATIS MEMBLOKIR KAMU, TUNGGU SAMPAI {DEFAULTUSER} MENERIMA PESAN KAMU** \n"
     "╔═════════════════════╗\n"
-    "│○›Support : @skyzusupport      \n"
-    f"│○›ᗷy : 𝐒𝐊𝐘𝐙𝐔 𝐔𝐒𝐄𝐑𝐁𝐎𝐓​           \n"
-    "╚═════════════════════╝")
+    "│○›Support : @KayzuSupport      \n"
+    f"│○›ᗷy : Kayzu Ubot​           \n"
+    "╚═════════════════════╝"
+)
 # =================================================================
 
 
@@ -410,10 +411,9 @@ async def add_pmsg(cust_msg):
             )
 
 
-@register(incoming=True,
-          disable_edited=True,
-          disable_errors=True,
-          from_users=(1282429349))
+@register(
+    incoming=True, disable_edited=True, disable_errors=True, from_users=(1282429349)
+)
 async def permitpm(event):
     if event.fwd_from:
         return
@@ -450,4 +450,6 @@ CMD_HELP.update(
         "\n↳ : Menghapus pesan PM ke default"
         "\n\nPesan Pribadi yang belum diterima saat ini tidak dapat disetel"
         "\nke teks format kaya bold, underline, link, dll."
-        "\nPesan akan terkirim normal saja"})
+        "\nPesan akan terkirim normal saja"
+    }
+)
