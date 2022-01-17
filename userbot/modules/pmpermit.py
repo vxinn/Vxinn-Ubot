@@ -19,7 +19,6 @@ from userbot import (
     LASTMSG,
     LOGS,
     PM_AUTO_BAN,
-    PM_LIMIT,
     PMPERMIT_PIC,
     PMPERMIT_TEXT,
 )
