@@ -82,8 +82,6 @@ async def typewriter(typew):
                      "▓▓▓▓▓▓█████░░░░░░░░░██░░░░░░\n")
 
 
-CMD_HELP.update({
-    "animasi9":
-    "`.skull` ; `.wlc` ; `.klb` ; `.fucek`\
-    \nUsage: liat aja."
-})
+CMD_HELP.update({"animasi9":
+                 "`.skull` ; `.wlc` ; `.klb` ; `.fucek`\
+                 \nUsage: Coba Aja."})
