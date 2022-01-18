@@ -208,7 +208,7 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 " **!Informasi Dyno Heroku! :**"
-                "\n☆════════════════════☆\n
+                "\n☆════════════════════☆\n"
                 f"⚡ Dyno Saat Ini : \n"
                 f"➠ {AppHours} ᴊᴀᴍ - {AppMinutes} ᴍᴇɴɪᴛ [ {AppPercentage}% ]  \n"
                 "\n☆════════════════════☆\n"
