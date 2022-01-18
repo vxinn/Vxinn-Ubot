@@ -312,10 +312,10 @@ async def redis(alive):
     await alive.edit("__Sedang Memuat...__")
     await alive.edit("__Sedang Memuat..__")
     await alive.edit("__Sedang Memuat...__")
-    await alive.edit("🔥")
+    await alive.edit("⚡")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━ ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡ ━━ \n"
+        f"┏━━━━ ⚡ᴋᴀʏᴢᴜ-ᴜʙᴏᴛ⚡ ━━━━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
@@ -326,7 +326,8 @@ async def redis(alive):
         f"┣  `GitHub   :` [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot) \n"
         f"┣  `Support  :` [Groups](t.me/KayzuSupport) \n"
         f"┣  `Owner    :` [Kayzu](https://t.me/Kayzuuuuu) \n"
-        f"┗━━━━━━━━━━━━━━━━━━━━━━")
+        f"┗━━━━━━━━━━━━━━━━━━━━━━ \n"
+           )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
