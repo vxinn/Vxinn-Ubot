@@ -211,11 +211,11 @@ async def dyno_usage(dyno):
                 "\n☆════════════════════☆\n
                 f"⚡ Dyno Saat Ini : \n"
                 f"➠ {AppHours} ᴊᴀᴍ - {AppMinutes} ᴍᴇɴɪᴛ [ {AppPercentage}% ]  \n"
-                "\n☆════════════════════☆\n
+                "\n☆════════════════════☆\n"
                 "⚡ Dyno Bulan Ini: \n"
                 f"➠ {hours} ᴊᴀᴍ - {minutes} ᴍᴇɴɪᴛ [ {percentage}% ] \n"
                 f" 🥷 Bot Of  : {ALIVE_NAME} \n"
-                "\n☆════════════════════☆\n
+                "\n☆════════════════════☆\n"
             )
             await asyncio.sleep(20)
             await event.delete()
