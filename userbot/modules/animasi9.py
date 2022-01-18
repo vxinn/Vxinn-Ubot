@@ -27,8 +27,8 @@ async def typewriter(typew):
                      "███████▄░░░░░░░░░░░▄███████\n"
                      "██████████▄▄▄▄▄▄▄██████████\n"
                      "███████████████████████████\n")
-    
-    
+
+
 @register(outgoing=True, pattern='^.wlc(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -37,8 +37,8 @@ async def typewriter(typew):
                      "█░░║║║╠─║─║─║║║║║╠─░░█\n"
                      "█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█\n"
                      "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\n")
-                       
-    
+
+
 @register(outgoing=True, pattern='^.klb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -51,7 +51,7 @@ async def typewriter(typew):
                      "        ╚═(███)═╝\n"
                      "      ╚═(███)═╝\n"
                      "     ╚═(███)═╝\n"
-                     "    ╚═(███)═╝ \n"                       
+                     "    ╚═(███)═╝ \n"
                      "    ╚═(███)═╝\n"
                      "     ╚═(███)═╝\n"
                      "      ╚═(███)═╝\n"
@@ -63,7 +63,7 @@ async def typewriter(typew):
                      "     ╚═(███)═╝\n"
                      "     ╚═(███)═╝\n"
                      "      ╚═(█)═╝\n")
-                     
+
 
 @register(outgoing=True, pattern='^.fucek(?: |$)(.*)')
 async def typewriter(typew):
@@ -80,11 +80,10 @@ async def typewriter(typew):
                      "▓▓▓▓▓▓█░░░░░░░░░░░░░░░░█░░░░\n"
                      "▓▓▓▓▓▓█░░░░░░░░░░░░░░██░░░░░\n"
                      "▓▓▓▓▓▓█████░░░░░░░░░██░░░░░░\n")
-    
-    
+
+
 CMD_HELP.update({
     "animasi9":
     "`.skull` ; `.wlc` ; `.klb` ; `.fucek`\
     \nUsage: liat aja."
-})                     
-                   
+})
