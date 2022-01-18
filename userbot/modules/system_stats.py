@@ -326,8 +326,7 @@ async def redis(alive):
         f"┣  `GitHub   :` [Kayzu](https://github.com/Kayzyu/Kayzu-Ubot) \n"
         f"┣  `Support  :` [Groups](t.me/KayzuSupport) \n"
         f"┣  `Owner    :` [Kayzu](https://t.me/Kayzuuuuu) \n"
-        f"┗━━━━━━━━━━━━━━━━━━━━━━ \n"
-    )
+        f"┗━━━━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
