@@ -52,8 +52,8 @@ async def koc(e):
         await e.edit("AKU SAYANG KAMU💞")
 
 
-CCMD_HELP.update({
+CMD_HELP.update({                     
     "animasi9":
-    "`.sange\
+    "`.sange`\
     \nUsage: liat aja."
 })
