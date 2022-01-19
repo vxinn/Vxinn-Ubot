@@ -54,6 +54,6 @@ async def koc(e):
 
 CMD_HELP.update({
     "animasi9":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙": `.sange`
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sange`"
     "\nUsage: Cobain Sendiri"
 })
