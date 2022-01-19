@@ -5,9 +5,7 @@ from userbot.events import register
 
 
 @register(outgoing=True, pattern="^.sange$")
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit
+async def koc():
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("SAYANGGGGGGGGG 💕")
         sleep(1)
