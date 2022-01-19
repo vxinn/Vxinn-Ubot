@@ -5,7 +5,7 @@ from userbot.events import register
 
 
 @register(outgoing=True, pattern="^.sange$")
-async def koc():
+async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("SAYANGGGGGGGGG 💕")
         sleep(1)
@@ -54,8 +54,6 @@ async def koc():
 
 
 CMD_HELP.update({
-    "animasi9": "`.cinta`\
-    \nUsage: mengirim cintamu ke seseorang.\
-    \n\n`.sange` :\
-    \nUsage: cobalah sndiri ngentot."
+    "animasi9": "`.sange`\
+    \nUsage: Sange Ke Oranh.\
 })
