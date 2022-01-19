@@ -52,9 +52,8 @@ async def koc(e):
         await e.edit("AKU SAYANG KAMU💞")
 
 
-CMD_HELP.update(
-    {
-        "animasi9": "`.sange`\
-               \nUsage: liat aja."
-    }
-)
+CMD_HELP.update({
+    "animasi9":
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sange`\
+    \n↳ : Cobain Sendiri.\
+})
