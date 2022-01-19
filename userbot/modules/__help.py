@@ -1,6 +1,5 @@
 import logging
 
-
 from userbot import BOT_USERNAME
 from userbot.events import register
 
@@ -14,16 +13,16 @@ async def yardim(event):
     try:
         tgbotusername = BOT_USERNAME
         if tgbotusername is not None:
-            results = await event.client.inline_query(tgbotusername, BOT_USERNAME)
+            results = await event.client.inline_query(tgbotusername, "@Kayzuuuuu")
             await results[0].click(
                 event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
             )
             await event.delete()
         else:
             await event.edit(
-                "`Bot tidak berfungsi! Harap setel Token Bot dan Nama Pengguna dengan benar. Modul telah dihentikan.`"
+                "`Botnya tidak berfungsi! Silahkan atur Bot Token dan Username dengan benar. Modul telah dihentikan.`"
             )
     except Exception:
         return await event.edit(
-            "`Anda tidak dapat Menggunakan Perintah helpme, Bisa Jadi Grup Ini tidak Mensupport nya (Mungkin Anda Belum Menghidupakan Inline Mode Dan Inline Location Data)`"
+            "`Anda tidak dapat mengirim hasil sebaris dalam hal ini ke chat (disebabkan oleh Mengirim Inline Sebaris)\ngunakan perintah .inlineon`"
         )
