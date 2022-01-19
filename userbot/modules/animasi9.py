@@ -1,6 +1,5 @@
 from time import sleep
 
-from userbot import CMD_HELP
 from userbot.events import register
 
 
@@ -57,4 +56,4 @@ CCMD_HELP.update({
     "animasi9":
     "`.sange\
     \nUsage: liat aja."
-})                     
+})
